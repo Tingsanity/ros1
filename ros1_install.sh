@@ -7,3 +7,4 @@ sudo apt install ros-melodic-desktop-full -y
 sudo rosdep init
 rosdep update
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential -y
+sudo apt-get purge python-rospkg && sudo apt-get update -y &&sudo apt-get install -y ipython python-rospkg
