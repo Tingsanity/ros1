@@ -14,4 +14,4 @@ sudo chmod 777 venv/lib/python3.7/site-packages/
 sudo chmod 777 venv/bin/
 sudo chmod 777 venv/lib/python3.7/site-packages/__pycache__/
 pip install catkin_pkg pyyaml empy rospkg numpy
-
+pip install pandas editdistance dtaidistance
