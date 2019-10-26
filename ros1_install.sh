@@ -8,3 +8,13 @@ sudo rosdep init
 rosdep update
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential -y
 
+#-------------------ros1+ros2 setup ~/.bashrc--------------------#
+#read -p "What do you want to do? 1.Use ROS1 2.Use ROS2 3.Normal: " ROS_model
+#if [ "${ROS_model}" == "1" ]; then
+#        echo "OK,you are using ROS1"
+#  source /opt/ros/melodic/setup.bash
+#elif [ "${ROS_model}" == "2" ]; then
+#        echo "OK,you are using ROS2"
+#else
+#        echo "OK,you are using Normal"
+#fi
