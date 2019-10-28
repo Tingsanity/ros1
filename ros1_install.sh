@@ -5,7 +5,7 @@ curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE
 sudo apt update -y
 sudo apt install ros-melodic-desktop-full -y
 sudo rosdep init
-sudo rosdep update
+rosdep update
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential -y
 
 #-------------------ros1+ros2 setup ~/.bashrc--------------------#
